@@ -1,0 +1,35 @@
+/* Reset styles */
+*{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+
+/* Typography */
+body,html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Colors */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+}
+main{
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+  padding: .1px;
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+}
+
+
